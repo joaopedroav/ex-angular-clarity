@@ -1,0 +1,27 @@
+<div class="card">
+  <div class="card-header">
+    Exemplo
+  </div>
+  <div class="card-block">
+    <clr-tabs>
+      <clr-tab>
+        <button clrTabLink>Tab 1</button>
+        <ng-template [(clrIfActive)]="managementActive">
+          <clr-tab-content>
+            <section class="form-block marg">
+            </section>
+            <p>Conteúdo tab 1</p>
+          </clr-tab-content>
+        </ng-template>
+      </clr-tab>
+      <clr-tab>
+        <button clrTabLink>Tab2</button>
+        <ng-template [(clrIfActive)]="dashboardActive">
+          <clr-tab-content>
+            <p>Conteúdo do tab 2</p>
+          </clr-tab-content>
+        </ng-template>
+      </clr-tab>
+    </clr-tabs>
+  </div>
+</div>
