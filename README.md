@@ -25,3 +25,7 @@ npm install
 ng serve
 ```
 - Open in browser [http://localhost:4200](http://localhost:4200)
+
+## About VmWare Clarity
+
+[Documentation](https://v1.clarity.design/get-started)
